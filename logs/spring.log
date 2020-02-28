@@ -1,0 +1,56 @@
+2020-02-28 18:45:32.624  INFO 23464 --- [main] demo.Application                         : Starting Application on shhan04PC with PID 23464 (C:\Users\7040_64bit\Desktop\pro\inflearn-springboot\chapter24\build\classes\java\main started by í•œì„±í˜œ in C:\Users\7040_64bit\Desktop\pro\inflearn-springboot)
+2020-02-28 18:45:32.628 DEBUG 23464 --- [main] demo.Application                         : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-28 18:45:32.629  INFO 23464 --- [main] demo.Application                         : No active profile set, falling back to default profiles: default
+2020-02-28 18:45:33.711  WARN 23464 --- [main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testRunner': Unsatisfied dependency expressed through field 'hello'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.lang.String' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-02-28 18:45:33.726  INFO 23464 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-02-28 18:45:33.946 ERROR 23464 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field hello in demo.TestRunner required a bean of type 'java.lang.String' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'java.lang.String' in your configuration.
+
+2020-02-28 18:47:26.275  INFO 21736 --- [main] demo.Application                         : Starting Application on shhan04PC with PID 21736 (C:\Users\7040_64bit\Desktop\pro\inflearn-springboot\chapter24\build\classes\java\main started by í•œì„±í˜œ in C:\Users\7040_64bit\Desktop\pro\inflearn-springboot)
+2020-02-28 18:47:26.279 DEBUG 21736 --- [main] demo.Application                         : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-28 18:47:26.280  INFO 21736 --- [main] demo.Application                         : No active profile set, falling back to default profiles: default
+2020-02-28 18:47:27.011  WARN 21736 --- [main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testRunner': Unsatisfied dependency expressed through field 'hello'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.lang.String' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-02-28 18:47:27.021  INFO 21736 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-02-28 18:47:27.155 ERROR 21736 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field hello in demo.TestRunner required a bean of type 'java.lang.String' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'java.lang.String' in your configuration.
+
+2020-02-28 18:48:58.817  INFO 17452 --- [main] demo.Application                         : Starting Application on shhan04PC with PID 17452 (C:\Users\7040_64bit\Desktop\pro\inflearn-springboot\chapter24\build\classes\java\main started by ÇÑ¼ºÇý in C:\Users\7040_64bit\Desktop\pro\inflearn-springboot)
+2020-02-28 18:48:58.825 DEBUG 17452 --- [main] demo.Application                         : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-28 18:48:58.834  INFO 17452 --- [main] demo.Application                         : No active profile set, falling back to default profiles: default
+2020-02-28 18:48:59.971  INFO 17452 --- [main] demo.Application                         : Started Application in 1.81 seconds (JVM running for 2.943)
+2020-02-28 18:48:59.980  INFO 17452 --- [main] demo.Application                         : ======info=====
+2020-02-28 18:48:59.982 DEBUG 17452 --- [main] demo.Application                         : ========debug========
