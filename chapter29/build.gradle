@@ -19,4 +19,8 @@ dependencies {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
     }
     testCompile("junit:junit:4.12")
+    // https://mvnrepository.com/artifact/org.webjars.bower/jquery
+    compile group: 'org.webjars.bower', name: 'jquery', version: '3.4.1'
+    // https://mvnrepository.com/artifact/org.webjars/webjars-locator-core
+    compile group: 'org.webjars', name: 'webjars-locator-core', version: '0.43'
 }
