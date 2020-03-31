@@ -1,4 +1,4 @@
-package com.seonghye.chapter35;
+package com.seonghye.chapter35.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
